@@ -74,7 +74,7 @@ with col1:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.image("IMG-20260412-WA0051.jpg")
     if st.button("Choisir C", key="c"):
-        st.switch_page("pages/TleC.py")
+        st.switch_page("TleC.py")
     st.markdown('</div>', unsafe_allow_html=True)
 
 # Terminal D
@@ -82,7 +82,7 @@ with col2:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.image("IMG-20260412-WA0052.jpg")
     if st.button("Choisir D", key="d"):
-        st.switch_page("pages/TleD.py")
+        st.switch_page("TleD.py")
     st.markdown('</div>', unsafe_allow_html=True)
 
 # Terminal A
@@ -90,7 +90,7 @@ with col3:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.image("IMG-20260412-WA0050.jpg")
     if st.button("Choisir A", key="a"):
-        st.switch_page("pages/TleA.py")
+        st.switch_page("TleA.py")
     st.markdown('</div>', unsafe_allow_html=True)
 
 # Terminal TI
@@ -98,7 +98,7 @@ with col4:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.image("IMG-20260412-WA0049.jpg")
     if st.button("Choisir TI", key="ti"):
-        st.switch_page("pages/TleTI.py")
+        st.switch_page("TleTI.py")
     st.markdown('</div>', unsafe_allow_html=True)
 
 st.markdown('</div>', unsafe_allow_html=True)
